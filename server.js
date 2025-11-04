@@ -12,7 +12,7 @@ connectDB();
 
 const app = express();
 app.use(cors({
-  origin: "http://localhost:3000", // temporary: '*' for testing
+  origin: "https://ashamolofficial.github.io/Photoprint/", // temporary: '*' for testing
   credentials: true,
 }));
 
