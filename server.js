@@ -12,7 +12,7 @@ connectDB();
 
 const app = express();
 app.use(cors({
-  origin: "https://your-frontend-domain.com", // temporary: '*' for testing
+  origin: "http://localhost:3000", // temporary: '*' for testing
   credentials: true,
 }));
 
